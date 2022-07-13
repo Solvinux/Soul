@@ -1,12 +1,23 @@
 body{
     margin: 0;
-    background-color: #444848;
+    background-color: #22272e;
+    color: #f0f8ff;
+}
+
+a{
+    text-decoration: none;
+    color: #00ffff;
+}
+
+a:hover{
+    color: #ffe4c4;
+    font-weight: 700;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #4e4e4e;
+    background-color: #4b4848;
     padding: .5rem;
     font-style: italic;
     font-family: cursive;
