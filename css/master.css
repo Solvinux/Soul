@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: #444848;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4e4e4e;
+    padding: .5rem;
+    font-style: italic;
+    font-family: cursive;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li{
+    padding: 0 .5rem;
+}
+
+header p{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.text-block{
+    background-image: url(https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg);
+    text-align: center;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.copy{
+    text-align: right;
+    position: relative;
+    top: 245px;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
