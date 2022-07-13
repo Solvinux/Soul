@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: #444848;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4e4e4e;
+    padding: .5rem;
+    font-style: italic;
+    font-family: cursive;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li{
+    padding: 0 .5rem;
+}
+
+header p{
+    font-size: 3rem;
+    margin: 0;
+}
