@@ -1,3 +1,8 @@
+// copyright
+const copy = document.getElementById("copy");
+const udate = new Date();
+copy.innerText = udate.getFullYear();
+
 // show date
 const show = document.getElementById("date");
 
@@ -51,8 +56,3 @@ const showClock = () => {
 }
 
 setInterval(showClock, 100);
-
-// copyright
-const copy = document.getElementById("copy");
-const udate = new Date();
-copy.innerText = udate.getFullYear();
